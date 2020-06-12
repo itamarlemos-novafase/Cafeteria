@@ -1,0 +1,73 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100vw;
+}
+
+header .logo {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .menu {
+    flex: 2;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+header nav a {
+    width: 133px;
+    padding: 5px 10px;
+    margin: 10px;
+    background-color: gray;
+    transition: .2s;
+    color: white;
+    border-bottom: 1px solid white;
+    text-decoration: none;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: white;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+header li {
+    list-style: none;
+}
+ /* MAIN */
+
+ main {
+     margin-top: 50px;
+ }
+
+ /* RODAPÉ */
+ footer {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 15vh;
+ }
